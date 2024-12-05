@@ -1,0 +1,150 @@
+#logoAnimation{
+  position: fixed;
+  width: 230px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/packwhite.gif");
+}
+.brand-logo{
+  width: 150px;
+  height: 65px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("../images/packstill.png");
+  background-color: white;
+}
+
+.nav-new-color {
+  background-color: #FF715B!important;
+}
+
+#contentSectionId{
+  margin-bottom: 100px;
+}
+#mainContent{
+  margin-top: 5%;
+}
+#questionPrompt{
+  margin-left: 13%;
+  font-size: 30px;
+}
+html{
+  height: 100%;
+}
+.page-footer{
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFBF00;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+#blackIcon{
+  color: #65A5C8!important;
+}
+#printBtn{
+  z-index: 1;
+}
+
+
+.questionOnebox{
+  width: 90%;
+  height: 300px!important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#sideContent{
+  height: 500px;
+  margin-top: 5%;
+}
+
+#international{
+  background-image: url(https://media.giphy.com/media/XA39LfykIFzXO/giphy.gif);
+}
+#domestic
+{
+  background-image: url(https://media.giphy.com/media/YiPaivd4VTZNm/giphy.gif);
+}
+
+
+#usaMap{
+  background-image: url("../images/map/usaRegion0.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.questionTwo{
+  width: 90%;
+  height: 200px;
+  padding-top: 130px;
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+
+.questionThreeImg {
+  position: relative;
+  top: 50%;
+  left: 41.5%;
+  height: 6rem;
+  width: 6rem;
+}
+
+.questionThreeText {
+  position: relative;
+  top: 30%;
+  left: 45%;
+}
+
+
+.questionFour {
+  height: 4rem;
+  width: 4rem;
+}
+
+#theListOutPut{
+  text-align: center;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 600px) {
+
+    #brandLOGO{
+      display: none;
+    }
+    #questionPrompt{
+
+      margin-left: 3%;
+      line-height: 0px;
+      font-size: 15px;
+    }
+    .questionOnebox{
+      width: 150px;
+      height: 150px!important;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      text-align: center;
+    }
+    .questionTwo{
+      width: 150px;
+      height: 100px;
+      padding-top: 30px;
+      text-align: center;
+      font-size: 20px;
+      color: orange;
+      font-weight: bold;
+    }
+}
